@@ -30,11 +30,6 @@ contract Accounting {
         _;
     }
 
-    /**
-        This function is used to receive equity funds
-        @param shareholder the shareholder that is providing equity
-        @param equityAmount the amounty of equity funds being provided
-     */
     function raiseEquity(address shareholder, int256 equityAmount) external onlyAdmin {
         // Updates to Balance Sheet
         balanceSheet["Cash"] += equityAmount;
