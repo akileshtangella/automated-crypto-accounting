@@ -81,7 +81,7 @@ async function main() {
       {'(6) Net Borrowings': await accounting.cashFlowStatement('NetBorrowings')},
       {'(7) Income Taxes Paid': await accounting.cashFlowStatement('IncomeTaxesPaid')},
       {'(8) Sale of Capital Stock': await accounting.cashFlowStatement('SaleOfCapitalStock')},
-      {'(9) Ending Cash Balance = (4)-(5)+(6)-(7)+(8)': await accounting.cashFlowStatement('EndingCashBalance')}
+      {'(9) Ending Cash Balance = (1)+(4)-(5)+(6)-(7)+(8)': await accounting.cashFlowStatement('EndingCashBalance')}
     )
 
     console.log(cashFlowStatementTable.toString());
