@@ -1,4 +1,4 @@
- To run the code do the following steps:
+ ## To run the code do the following steps:
  
  1. `git clone https://github.com/saiakilesh/automated-crypto-accounting.git`
  2. `cd automated-crypto-accounting`
